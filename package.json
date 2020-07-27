@@ -1,0 +1,16 @@
+{
+  "name": "webp",
+  "license": "Apache-2.0",
+  "author": "andrew@rioja.io",
+  "scripts": {
+    "install": "napa",
+    "build": "docker run --rm -v $(pwd):/src trzeci/emscripten-upstream ./build.sh"
+  },
+  "napa": {
+    "libwebp": "webmproject/libwebp#v1.0.2"
+  },
+  "devDependencies": {
+    "napa": "3.0.0"
+  },
+  "version": "0.0.0"
+}
