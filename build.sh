@@ -38,12 +38,12 @@ echo "============================================="
 (
   emcc \
     ${OPTIMIZE} \
-    --closure 1 \
     --bind \
     -s ALLOW_MEMORY_GROWTH=1 \
     -s MODULARIZE=1 \
     -s 'EXPORT_NAME="webp_dec"' \
     -I node_modules/libwebp \
+    --pre-js wrap.js \
     -o dec/webp_dec.js \
     dec/webp_dec.cpp \
     node_modules/libwebp/src/.libs/libwebp.a
@@ -51,12 +51,12 @@ echo "============================================="
 (
   emcc \
     ${OPTIMIZE} \
-    --closure 1 \
     --bind \
     -s ALLOW_MEMORY_GROWTH=1 \
     -s MODULARIZE=1 \
     -s 'EXPORT_NAME="webp_enc"' \
     -I node_modules/libwebp \
+    --pre-js wrap.js \
     -o enc/webp_enc.js \
     enc/webp_enc.cpp \
     node_modules/libwebp/src/.libs/libwebp.a
