@@ -1,5 +1,5 @@
 {
-  "name": "webp",
+  "name": "webp-wasm-js",
   "license": "Apache-2.0",
   "author": "andrew@rioja.io",
   "scripts": {
