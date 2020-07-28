@@ -1,0 +1,8 @@
+{
+  "name": "webp-js-decode",
+  "license": "Apache-2.0",
+  "author": "andrew@rioja.io",
+  "version": "0.0.0",
+  "module": "webp_dec.js",
+  "main": "webp_dec.js"
+}

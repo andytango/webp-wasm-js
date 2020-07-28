@@ -1,0 +1,8 @@
+{
+  "name": "webp-js-encode",
+  "license": "Apache-2.0",
+  "author": "andrew@rioja.io",
+  "version": "0.0.0",
+  "module": "webp_enc.js",
+  "main": "webp_enc.js"
+}

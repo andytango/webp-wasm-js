@@ -1,5 +1,7 @@
 # WebP decoder
 
+Extracted and built from Google's [Squoosh](https://github.com/GoogleChromeLabs/squoosh) app, packaged for NPM.
+
 - Source: <https://github.com/webmproject/libwebp>
 - Version: v1.0.2
 
